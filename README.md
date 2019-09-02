@@ -18,8 +18,8 @@
 
 ### 4. What does the abbreviation DP stand for and why do we need them?
 
-    - 
-    
+    - dp is a virtual pixel unit that's roughly equal to one pixel on a medium-density screen (160dpi; the "baseline" density). Android translates this value to the appropriate number of real pixels for each other density. We use it to ensure that images are the same sizes on diffrent devices
+
 ### 5. What is the purpose of the string.xml file?
 
     - This is used so we have no hardcoded code in our design. And we can use it to have an app with multiple languages.
@@ -28,7 +28,6 @@
 
     - 
 
-### 7. In the level 1 example the following code was used: btnConfirm.setOnClickListener What is a listener and what is the underlying design pattern?
+### 7. In the level 1 example the following code was used: btnConfirm.setOnClickListener What is a listener and what is the underlying design pattern"?"  
 
     - You have all kind of listeners. The setOnClickListener is used to check if a component is clicked on, when this happend the code in the listener will be executed
-
